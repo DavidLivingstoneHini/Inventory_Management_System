@@ -40,7 +40,7 @@ namespace InventoryManagementSystem
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.DarkViolet;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(22, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(590, 18);
@@ -48,8 +48,8 @@ namespace InventoryManagementSystem
             // 
             // progressBar1
             // 
-            this.progressBar1.BackColor = System.Drawing.Color.SeaGreen;
-            this.progressBar1.ForeColor = System.Drawing.Color.Indigo;
+            this.progressBar1.BackColor = System.Drawing.Color.DarkViolet;
+            this.progressBar1.ForeColor = System.Drawing.Color.Red;
             this.progressBar1.Location = new System.Drawing.Point(81, 256);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(476, 11);
@@ -62,6 +62,7 @@ namespace InventoryManagementSystem
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkViolet;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(168, 64);
             this.pictureBox1.Name = "pictureBox1";
@@ -74,7 +75,7 @@ namespace InventoryManagementSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.BackColor = System.Drawing.Color.DarkViolet;
             this.ClientSize = new System.Drawing.Size(624, 279);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.progressBar1);

@@ -49,7 +49,7 @@ namespace InventoryManagementSystem
             // dgvCategory
             // 
             this.dgvCategory.AllowUserToAddRows = false;
-            this.dgvCategory.BackgroundColor = System.Drawing.Color.White;
+            this.dgvCategory.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvCategory.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));

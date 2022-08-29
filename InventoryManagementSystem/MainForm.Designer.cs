@@ -49,7 +49,7 @@ namespace InventoryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel1.BackColor = System.Drawing.Color.DarkViolet;
             this.panel1.Controls.Add(this.pictureBoxClose);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label8);
@@ -76,7 +76,7 @@ namespace InventoryManagementSystem
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.SeaGreen;
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkViolet;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(48, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -91,7 +91,7 @@ namespace InventoryManagementSystem
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label8.ForeColor = System.Drawing.Color.DarkViolet;
             this.label8.Location = new System.Drawing.Point(872, 43);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 20);
@@ -104,7 +104,7 @@ namespace InventoryManagementSystem
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label7.ForeColor = System.Drawing.Color.DarkViolet;
             this.label7.Location = new System.Drawing.Point(754, 43);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 20);
@@ -117,7 +117,7 @@ namespace InventoryManagementSystem
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label6.ForeColor = System.Drawing.Color.DarkViolet;
             this.label6.Location = new System.Drawing.Point(585, 43);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 20);
@@ -130,7 +130,7 @@ namespace InventoryManagementSystem
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label5.ForeColor = System.Drawing.Color.DarkViolet;
             this.label5.Location = new System.Drawing.Point(442, 43);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 20);
@@ -143,7 +143,7 @@ namespace InventoryManagementSystem
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label4.ForeColor = System.Drawing.Color.DarkViolet;
             this.label4.Location = new System.Drawing.Point(311, 43);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 20);
@@ -164,7 +164,7 @@ namespace InventoryManagementSystem
             // 
             // panelMain
             // 
-            this.panelMain.BackColor = System.Drawing.Color.Silver;
+            this.panelMain.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panelMain.Controls.Add(this.label9);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(0, 94);

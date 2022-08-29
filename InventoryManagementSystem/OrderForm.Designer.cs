@@ -182,7 +182,7 @@ namespace InventoryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel1.BackColor = System.Drawing.Color.DarkViolet;
             this.panel1.Controls.Add(this.lblTotal);
             this.panel1.Controls.Add(this.lblQty);
             this.panel1.Controls.Add(this.label5);

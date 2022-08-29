@@ -40,11 +40,11 @@ namespace InventoryManagementSystem
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             this.SuspendLayout();
             // 
             // txtName
@@ -92,7 +92,7 @@ namespace InventoryManagementSystem
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.SlateBlue;
+            this.btnLogin.BackColor = System.Drawing.Color.DarkViolet;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -110,7 +110,7 @@ namespace InventoryManagementSystem
             this.checkBoxPass.AutoSize = true;
             this.checkBoxPass.Location = new System.Drawing.Point(357, 209);
             this.checkBoxPass.Name = "checkBoxPass";
-            this.checkBoxPass.Size = new System.Drawing.Size(123, 20);
+            this.checkBoxPass.Size = new System.Drawing.Size(122, 20);
             this.checkBoxPass.TabIndex = 8;
             this.checkBoxPass.Text = "Show Password";
             this.checkBoxPass.UseVisualStyleBackColor = true;
@@ -124,7 +124,7 @@ namespace InventoryManagementSystem
             this.lblClear.Location = new System.Drawing.Point(214, 206);
             this.lblClear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClear.Name = "lblClear";
-            this.lblClear.Size = new System.Drawing.Size(45, 16);
+            this.lblClear.Size = new System.Drawing.Size(44, 16);
             this.lblClear.TabIndex = 9;
             this.lblClear.Text = "Clear";
             this.lblClear.Click += new System.EventHandler(this.lblClear_Click);
@@ -141,7 +141,7 @@ namespace InventoryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SlateBlue;
+            this.panel1.BackColor = System.Drawing.Color.DarkViolet;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -161,6 +161,17 @@ namespace InventoryManagementSystem
             this.label3.TabIndex = 12;
             this.label3.Text = "Admin";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkViolet;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(24, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(118, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBoxClose
             // 
             this.pictureBoxClose.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxClose.Image")));
@@ -170,16 +181,6 @@ namespace InventoryManagementSystem
             this.pictureBoxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxClose.TabIndex = 12;
             this.pictureBoxClose.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(24, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
             // 
             // LoginForm
             // 
@@ -206,8 +207,8 @@ namespace InventoryManagementSystem
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
