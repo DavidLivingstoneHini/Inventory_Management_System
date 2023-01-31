@@ -1,1 +1,1 @@
-# Inventory_Management_System with C#
+# Inventory_Management_System with C#.
